@@ -36,6 +36,4 @@ for test_case in range(T):
     for i in range (N):
         jido.append(list(map(int, input().rstrip())))
 
-    
-
     print("#{0} {1}".format(test_case+1, bfs(N)))
